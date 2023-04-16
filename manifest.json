@@ -1,0 +1,58 @@
+{
+  "short_name": " Nest",
+  "name": " Nest",
+  "icons": [
+    {
+      "src": "https://static.wixstatic.com/shapes/8a5ad9_e0d3685636af4ba681c046763a159c12.svg",
+      "type": "image/svg+xml",
+      "sizes": "512x512"
+    },
+    {
+      "src": "https://static.wixstatic.com/media/8a5ad9_8bf3e57f86ab4c5c9846e65b0eeb7e6c~mv2.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "https://static.wixstatic.com/media/8a5ad9_f77162e76458422098925238c958cc38~mv2.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "id": "/?source=pwa",
+  "start_url": "www.bloomingnest.com/app-home/?source=pwa",
+  "background_color": "#f8f7f0",
+  "display": "fullscreen",
+  "scope": "/",
+  "theme_color": "#f5c9b6",
+  "shortcuts": [
+    {
+      "name": "How's weather today?",
+      "short_name": "Today",
+      "description": "View weather information for today",
+      "url": "/today?source=pwa",
+      "icons": [{ "src": "/images/today.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "How's weather tomorrow?",
+      "short_name": "Tomorrow",
+      "description": "View weather information for tomorrow",
+      "url": "/tomorrow?source=pwa",
+      "icons": [{ "src": "/images/tomorrow.png", "sizes": "192x192" }]
+    }
+  ],
+  "description": "Weather forecast information",
+  "screenshots": [
+    {
+      "src": "/images/screenshot1.png",
+      "type": "image/png",
+      "sizes": "540x720",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "/images/screenshot2.jpg",
+      "type": "image/jpg",
+      "sizes": "720x540",
+      "form_factor": "wide"
+    }
+  ]
+}
